@@ -7,4 +7,6 @@ This game (whole source and assets) was created within 72 hours for Ludum Dare g
 
 ## Installation
 
-Download source, and use Unity to build the project. Originally built using Unity 2017.4.1f1
+Download source, and use Unity to build the project. 
+
+Originally built using Unity 2017.4.1f1
