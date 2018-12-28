@@ -48,25 +48,6 @@ public class BezierCurve : MonoBehaviour
         }
     }
 
-    /*void OnDrawGizmosSelected()
-    {
-        if (to != null)
-        {
-            Handles.color = Color.white;
-            Vector3 lineStart = transform.position;
-            float dist = (transform.position - to.transform.position).magnitude;
-            Vector3 mid = transform.position + (to.transform.position - transform.position) * 0.5f + new Vector3(0.0f, -1.0f, 0.0f) * gravityEffect * dist;
-            for (int i = 1; i < lineSteps; i++)
-            {
-                float time = (float)i / (float)(lineSteps - 1);
-                Vector3 lineEnd = GetPoint(transform.position, mid, to.transform.position, time);
-                Handles.DrawLine(lineStart, lineEnd);
-                lineStart = lineEnd;
-            }
-        }
-    }*/
-
-    // Update is called once per frame
     void Update ()
     {
         if (to != null)
